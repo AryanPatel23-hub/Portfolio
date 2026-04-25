@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff9800;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #222;
+}
+
+/* Skills */
+#skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills li {
+    background: linear-gradient(135deg, #f8fafc 60%, #e0e7ef 100%);
+    padding: 10px 18px;
+    margin: 7px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+#skills li:hover {
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.13);
+    background: linear-gradient(135deg, #e0e7ef 60%, #f8fafc 100%);
+    transform: translateY(-3px) scale(1.04);
+}
+
+/* Projects */
+.project {
+    background: #fff;
+    padding: 24px 28px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+    transition: box-shadow 0.2s, transform 0.2s;
+    border-left: 5px solid #ff9800;
+}
+
+.project:hover {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.16);
+    transform: translateY(-2px) scale(1.01);
+    border-left: 5px solid #ffb74d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: #fff;
+}
+
+#github {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+#github:hover {
+    color: #ff9800;
+}
+
+/* General improvements */
+body {
+    min-height: 100vh;
+    background: linear-gradient(120deg, #f4f4f4 60%, #e0e7ef 100%);
+}
+
+section {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    background: #f8fafc;
+    margin-bottom: 30px;
+}
